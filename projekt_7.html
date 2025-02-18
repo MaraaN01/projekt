@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kontakt - HTML5 stranica">
+    <meta name="keywords" content="HTML5, web stranica, kontakt, forma">
+    <meta name="author" content="Mara">
+    <link rel="stylesheet" href="style.css">
+    <title>Kontakt - HTML5 Stranica</title>
+</head>
+<body>
+    <header>
+        <h1>Kontakt</h1>
+    </header>
+    <nav>
+        <a href="projekt_4.html">Početna stranica</a>
+        <a href="news.html">Novosti</a>
+        <a href="projekt_7.html">Kontakt</a>
+        <a href="projek_ 9_o_nama.html">O nama</a>
+        <a href="projekt_8_galerija.html">Galerija</a>
+    </nav>
+    <main>
+        <h1>Kontaktirajte nas</h1>
+        <p>Ovdje možete pronaći našu lokaciju i kontaktirati nas putem obrasca.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.545206870333!2d15.971944115318057!3d45.80015857910608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d704c38c42b1%3A0x68e1b5f67e8b6b2d!2sUl.%20Vrbik%20VIII%2C%2010000%2C%20Zagreb%2C%20Hrvatska!5e0!3m2!1shr!2shr!4v1673891234567" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <form action="#" method="post">
+            <label for="fname">Ime </label> <br>
+            <input type="text" id="fname" name="fname" required> <br>
+            
+            <label for="lname">Prezime </label> <br>
+            <input type="text" id="lname" name="lname" required> <br>
+            
+            <label for="email">E-mail </label> <br>
+            <input type="email" id="email" name="email" required> <br>
+            
+            <label for="country">Država</label>  <br>
+            <select id="country" name="country">
+                <option value="hr">Hrvatska</option>
+                <option value="rs">Srbija</option>
+                <option value="ba">Bosna i Hercegovina</option>
+                <option value="si">Slovenija</option>
+                <option value="me">Crna Gora</option>
+            </select>
+            
+            <label for="message">Opis</label> <br>
+            <textarea id="message" name="message" rows="5"></textarea>
+            
+            <button type="submit">Pošalji</button> <br>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Mara Nevistić.</p>
+        <a class="github-link" href="https://github.com/vas-korisnik" target="_blank">
+            <img src="slike/github.png" alt="GitHub Repozitorij">
+        </a>
+    </footer>
+</body>
+</html>
